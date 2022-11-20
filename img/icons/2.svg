@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 16" width="17" height="16">
+	<defs>
+		<image width="19" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAYAAAC5DOVpAAABbUlEQVQ4T62UyyqFURiGnzcDOYWcImVCUkwwkFyAUtI2UWZSipKS00y5AJG4ASUjE64AZSIpI2VkYCLMlVdL69fGtvfvsOqvf52e7/B+3xL/OPRXlu0WoFbS+a9htpuBFWASGJV0+GOY7SZgCZgCioEXoEbSU2qY7QZgOUJKAAPh/oWk7pCugjDbdcAiMA2UxhxfAp1AEbAhaS4vzHYNsADMAOUR8gxsARNAZVzLSDrICbNdDcwDs0BFltqP0bs1oDWuh1DrJd1/gNmuAoK74UusJqwbIAPsAP1ZBq4kdSXzt5zZ7gWOgpUcdXcSQevA+Kf9bUkhDW/jXYAY3hAwAgwCZcBurKOg4moOQ2OS9r/Asg/aDtL3AKfAMBASnEv5Jkl3eWGfwEH+ASB4HcDtcf9aUvL/MczvetR2EKQxlISkW9ttEfosaTP7Xpqi3Q69B3RIesj3MKSFHUvaK/TCpIH1STorBErVm2kgyZlX6pdiE08W6dcAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Shape 170" href="#img1" transform="matrix(1,0,0,1,-1,-1)"/>
+</svg>

@@ -1,0 +1,213 @@
+:root {
+    --roboto-font: 'Roboto';
+    --montserrat-font: 'Montserrat';
+  
+    --baner-text-color: #fff;
+    --hero-link-background-cokor: #ff4e50;
+  
+    --users-title-color: #333333;
+    --users-description-color: #8f8f8f;
+  }
+
+html{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0px;
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100px;
+    height: auto;
+  }
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    all: unset;
+}
+
+.container{
+    max-width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*.................. Main ................... */
+
+
+.banner{
+    background-image: url(../img/baner/mobile-baner.jpg);
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 33px;   
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.site-nav{
+    display: flex;
+}
+
+.logo{
+    font-size: 20px;
+    font-family: var(--montserrat-font);
+    font-weight: 700;
+    text-transform: uppercase;
+
+    color: var(--baner-text-color);
+}
+
+.site-nav__link{
+    font-family: var(--montserrat-font);
+    font-weight: 700;
+    text-transform: capitalize;
+
+    color: var(--baner-text-color);
+
+    padding: 15px;
+    border: 2px transparent solid;
+    border-radius: 50px;
+    transition: all 250ms linear;
+}
+
+.site-nav__link:hover,
+.site-nav__link:focus{
+    border-color: #fff;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__title{
+    font-size: 30px;
+    font-family: var(--montserrat-font);
+    font-weight: 700;
+    text-transform: uppercase;
+
+    color: var(--baner-text-color);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero__description{
+    font-family: var(--roboto-font);
+    font-weight: 300;
+    text-align: center;
+    font-size: 18px;
+
+    color: var(--baner-text-color);
+    margin-bottom: 18px;
+}
+
+.hero__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 280px;
+    
+
+    font-family: var(--montserrat-font);
+    font-weight: 700;
+    color: var(--baner-text-color);
+    text-transform: capitalize;
+    
+    background-color: var(--hero-link-background-cokor);
+    border-radius: 50px;
+    border: 2px var(--hero-link-background-cokor) solid;
+
+    transition: all 250ms linear;
+}
+
+
+.hero__link:hover,
+.hero__link:focus{
+background-color: #fff;
+color: var(--hero-link-background-cokor);
+}
+
+@media screen and (max-width:767px) {
+    .site-nav{
+        margin-bottom: 115px;
+    }
+
+    .header{
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+    }
+
+   .hero__description{
+    max-width: 220px;
+   }
+
+}
+
+@media screen and (min-width:768px){
+    .banner{
+        background-image: url(../img/baner/tablet-baner.jpg);
+        padding-top: 50px;
+        padding-bottom: 230px;
+
+    }
+
+    .header{
+       margin-bottom: 155px;
+    }
+
+    .logo{
+        margin-right: auto;
+    }
+
+    .hero__title{
+        font-size: 52px;
+    }
+
+    .hero__description{
+        margin-bottom: 35px;
+    }
+
+    
+}
+
+@media screen and (min-width: 940px) {
+    .banner {
+      background-image: url(../img/baner/desktop-baner.jpg);
+    }
+  }
